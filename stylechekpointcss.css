@@ -1,0 +1,132 @@
+body {
+    text-align: center;
+    background-color: rgb(232, 229, 229);
+    background-position: center;
+    background-size: cover;
+}
+.content { 
+    padding-top:20%;
+    margin: 80px auto 80px auto;
+    padding: 20px 20px 20px 20px;
+    width: 800px;
+    border-radius: 40px;
+    background-color: white;
+    box-shadow:2px 5px 5px 10px white; 
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+img {
+    margin-right:20%;
+    border-radius:30%;
+}
+.premierbloc,h2,h4 {
+    font-size: 25px;
+    color: #E6B63B;
+    font-family: ui-monospace;
+ 
+    padding-top:10%;
+    Display :flex;
+    justify-content:space-around;
+    padding:auto,0px,0px,10px;
+}
+ div h1{ white-space: nowrap;
+    color:#E6B63B;
+    margin-top: 40px;
+    padding-right: 80%;
+    font-size:40px;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+
+}
+
+main {
+    margin-top: -21px;
+}
+.Software {
+    font-family: ui-monospace;
+    font-size:20px;
+    color: #E6B63B;
+
+}
+h2{ padding-top:5%;
+    padding-right:70%;
+
+}
+
+.blocs{padding-top:10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+
+}
+
+.connaissance{
+    margin: auto;
+}
+
+.bloc1 {
+    margin-right: 200px;
+    display: flex;
+   justify-content: center;
+   flex-direction: column;
+    
+}
+
+input { 
+    width: 200px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #E6B63B ;
+    background-color: white;
+}
+.deplacer,input{
+    margin-top:10%;
+}
+input:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+footer {
+    height: 100px;
+    margin-top: 30px;
+
+}
+.rxsociaux{
+
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
+.rxsociaux img{
+     width:2.5em;
+    height:2.5em;
+    border-radius: 50%;
+    margin: 2rem;
+    cursor: pointer;
+}
+.rxsociaux img:hover{
+
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+hr{
+margin-top:40px;
+margin-bottom: 25px;
+border:1px solid  #E6B63B;
+
+}
